@@ -11,6 +11,7 @@ A terraform repository for provisioning AWS infrastructure resources.
         ### secret_key
 3.  Clone this repo locally in any IDE (VS-Code, IntelliJ) or use terminal.
 4.  Open the file **provider.tf** and replace this text "place-aws-account-access-key" with your **access_key** and replace this text "place-aws-account-secret-key" with your **secret_key** <br>
+5.  Change the **bucket_name** in the file **terraform.tfvars** as bucket-name should be unique globally<br>
 <br>
 
 ## Running terraform commands/workflow
